@@ -1,0 +1,50 @@
+.chat {
+  position: relative;
+  height: calc(100vh - 56px);
+}
+
+.send-form {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 8px;
+}
+.send-form > textarea {
+  max-width: 900px;
+  min-width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .c-messages-field {
+  max-width: 940px;
+  min-width: 940px;
+  max-height: 800px;
+  min-height: 800px;
+  overflow-y: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: 1px solid black;*/
+}
+
+.c-messages {
+  display: block;
+  padding: 5px;
+}
+
+.c-messages > .name {
+  display: inline-block;
+}
+
+.c-messages > .message {
+  display: block;
+  white-space: pre;
+  line-height: 1.4;
+  margin-left: 5px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #e1e1e1;
+}

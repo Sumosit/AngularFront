@@ -1,0 +1,13 @@
+.main {
+  position: relative;
+  width: 100%;
+  min-height: 94vh;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.main > div {
+  background-color: #ffffff;
+  padding: 8px;
+}

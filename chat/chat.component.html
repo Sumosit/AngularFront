@@ -1,0 +1,18 @@
+<div class="chat">
+  <div class="c-messages-field">
+    <div *ngFor="let greeting of greetings" class="c-messages">
+      <div class="name">
+        {{greeting.username}}
+      </div>
+      <div class="message" [innerHTML]="greeting.message" @fadeIn @fadeOut>
+      </div>
+    </div>
+  </div>
+  <form class="send-form">
+    <textarea
+      name="text"
+      [(ngModel)]="text"
+      (keyup.enter)="send()"
+    ></textarea>
+  </form>
+</div>

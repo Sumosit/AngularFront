@@ -1,0 +1,11 @@
+.content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  height: 100vh;
+  background-color: #6b6b6b;
+  padding-top: 40px;
+}

@@ -1,0 +1,42 @@
+nav {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+
+  user-select: none;
+}
+
+.nav-field {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0f0f0f;
+  color: #f6f6f6;
+}
+.options {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  padding: 0 8px;
+}
+
+.options:hover {
+  background-color: #6b6b6b;
+}
+
+.options > a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-right-options {
+  float: right;
+  height: 100%;
+}
